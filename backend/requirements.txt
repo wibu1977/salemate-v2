@@ -1,44 +1,12 @@
-# Sellora Backend - Core Dependencies
-# Generated from pyproject.toml
-# This file is provided for deployment convenience
-# pyproject.toml is the single source of truth
-
-# Web Framework
 fastapi>=0.104.0
 uvicorn[standard]>=0.24.0
 python-multipart>=0.0.6
-
-# Data Validation
 pydantic>=2.5.0
 pydantic-settings>=2.1.0
-
-# Database
 psycopg[binary]>=3.1.0
 asyncpg>=0.29.0
-
-# Supabase Client
 supabase>=2.3.0
-
-# Google AI
 google-cloud-aiplatform>=1.38.0
 google-generativeai>=0.3.0
-
-# HTTP Client
 httpx>=0.25.0
-
-# Environment Variables
 python-dotenv>=1.0.0
-
----
-
-# Development Dependencies (install with: pip install -e ".[dev]")
-
-# Testing
-pytest>=7.4.0
-pytest-asyncio>=0.21.0
-pytest-cov>=4.1.0
-
-# Code Quality
-black>=23.11.0
-ruff>=0.1.8
-mypy>=1.7.0
